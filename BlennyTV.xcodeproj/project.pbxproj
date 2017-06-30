@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0966421EFA55F900AB7849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0966411EFA55F900AB7849 /* AppDelegate.swift */; };
+		DF0966441EFA55F900AB7849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0966431EFA55F900AB7849 /* ViewController.swift */; };
+		DF0966471EFA55F900AB7849 /* BlennyTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF0966451EFA55F900AB7849 /* BlennyTV.xcdatamodeld */; };
+		DF0966491EFA55F900AB7849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0966481EFA55F900AB7849 /* Assets.xcassets */; };
+		DF09664C1EFA55F900AB7849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF09664A1EFA55F900AB7849 /* Main.storyboard */; };
+		DF0966541EFA567900AB7849 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0966531EFA567900AB7849 /* WindowController.swift */; };
+		DF0966561EFA568E00AB7849 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0966551EFA568E00AB7849 /* VideoViewController.swift */; };
+		DF0966581EFA56A500AB7849 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0966571EFA56A500AB7849 /* PreferencesViewController.swift */; };
+		DF09665A1EFA56B800AB7849 /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0966591EFA56B800AB7849 /* OverlayViewController.swift */; };
+		DF09665C1EFA56C700AB7849 /* EditTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF09665B1EFA56C700AB7849 /* EditTextField.swift */; };
+		DFD196371F0260D9000ADA9D /* ChannelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD196361F0260D9000ADA9D /* ChannelManager.swift */; };
+		DFD196391F02B1BF000ADA9D /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD196381F02B1BF000ADA9D /* VideoPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF09663E1EFA55F900AB7849 /* BlennyTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlennyTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0966411EFA55F900AB7849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF0966431EFA55F900AB7849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF0966461EFA55F900AB7849 /* BlennyTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlennyTV.xcdatamodel; sourceTree = "<group>"; };
+		DF0966481EFA55F900AB7849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF09664B1EFA55F900AB7849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF09664D1EFA55F900AB7849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0966531EFA567900AB7849 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		DF0966551EFA568E00AB7849 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		DF0966571EFA56A500AB7849 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		DF0966591EFA56B800AB7849 /* OverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
+		DF09665B1EFA56C700AB7849 /* EditTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTextField.swift; sourceTree = "<group>"; };
+		DFD196361F0260D9000ADA9D /* ChannelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelManager.swift; sourceTree = "<group>"; };
+		DFD196381F02B1BF000ADA9D /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF09663B1EFA55F900AB7849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0966351EFA55F900AB7849 = {
+			isa = PBXGroup;
+			children = (
+				DF0966401EFA55F900AB7849 /* BlennyTV */,
+				DF09663F1EFA55F900AB7849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF09663F1EFA55F900AB7849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF09663E1EFA55F900AB7849 /* BlennyTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0966401EFA55F900AB7849 /* BlennyTV */ = {
+			isa = PBXGroup;
+			children = (
+				DF0966411EFA55F900AB7849 /* AppDelegate.swift */,
+				DFD196361F0260D9000ADA9D /* ChannelManager.swift */,
+				DF09665B1EFA56C700AB7849 /* EditTextField.swift */,
+				DF0966591EFA56B800AB7849 /* OverlayViewController.swift */,
+				DF0966571EFA56A500AB7849 /* PreferencesViewController.swift */,
+				DF0966431EFA55F900AB7849 /* ViewController.swift */,
+				DF0966551EFA568E00AB7849 /* VideoViewController.swift */,
+				DFD196381F02B1BF000ADA9D /* VideoPlayer.swift */,
+				DF0966531EFA567900AB7849 /* WindowController.swift */,
+				DF0966481EFA55F900AB7849 /* Assets.xcassets */,
+				DF09664A1EFA55F900AB7849 /* Main.storyboard */,
+				DF09664D1EFA55F900AB7849 /* Info.plist */,
+				DF0966451EFA55F900AB7849 /* BlennyTV.xcdatamodeld */,
+			);
+			path = BlennyTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF09663D1EFA55F900AB7849 /* BlennyTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0966501EFA55F900AB7849 /* Build configuration list for PBXNativeTarget "BlennyTV" */;
+			buildPhases = (
+				DF09663A1EFA55F900AB7849 /* Sources */,
+				DF09663B1EFA55F900AB7849 /* Frameworks */,
+				DF09663C1EFA55F900AB7849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlennyTV;
+			productName = BlennyTV;
+			productReference = DF09663E1EFA55F900AB7849 /* BlennyTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0966361EFA55F900AB7849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Christian Schroeder";
+				TargetAttributes = {
+					DF09663D1EFA55F900AB7849 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2F287M64GC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF0966391EFA55F900AB7849 /* Build configuration list for PBXProject "BlennyTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF0966351EFA55F900AB7849;
+			productRefGroup = DF09663F1EFA55F900AB7849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF09663D1EFA55F900AB7849 /* BlennyTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF09663C1EFA55F900AB7849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0966491EFA55F900AB7849 /* Assets.xcassets in Resources */,
+				DF09664C1EFA55F900AB7849 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF09663A1EFA55F900AB7849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0966441EFA55F900AB7849 /* ViewController.swift in Sources */,
+				DF0966541EFA567900AB7849 /* WindowController.swift in Sources */,
+				DF09665A1EFA56B800AB7849 /* OverlayViewController.swift in Sources */,
+				DF0966421EFA55F900AB7849 /* AppDelegate.swift in Sources */,
+				DF0966561EFA568E00AB7849 /* VideoViewController.swift in Sources */,
+				DF09665C1EFA56C700AB7849 /* EditTextField.swift in Sources */,
+				DFD196391F02B1BF000ADA9D /* VideoPlayer.swift in Sources */,
+				DF0966471EFA55F900AB7849 /* BlennyTV.xcdatamodeld in Sources */,
+				DFD196371F0260D9000ADA9D /* ChannelManager.swift in Sources */,
+				DF0966581EFA56A500AB7849 /* PreferencesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF09664A1EFA55F900AB7849 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF09664B1EFA55F900AB7849 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF09664E1EFA55F900AB7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF09664F1EFA55F900AB7849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DF0966511EFA55F900AB7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2F287M64GC;
+				INFOPLIST_FILE = BlennyTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schroeDevel.BlennyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF0966521EFA55F900AB7849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2F287M64GC;
+				INFOPLIST_FILE = BlennyTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schroeDevel.BlennyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0966391EFA55F900AB7849 /* Build configuration list for PBXProject "BlennyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF09664E1EFA55F900AB7849 /* Debug */,
+				DF09664F1EFA55F900AB7849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0966501EFA55F900AB7849 /* Build configuration list for PBXNativeTarget "BlennyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0966511EFA55F900AB7849 /* Debug */,
+				DF0966521EFA55F900AB7849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF0966451EFA55F900AB7849 /* BlennyTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF0966461EFA55F900AB7849 /* BlennyTV.xcdatamodel */,
+			);
+			currentVersion = DF0966461EFA55F900AB7849 /* BlennyTV.xcdatamodel */;
+			path = BlennyTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF0966361EFA55F900AB7849 /* Project object */;
+}
