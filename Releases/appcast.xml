@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>BlennyTV Changelog</title>
+		<link>https://github.com/chschroeda/BlennyTV/raw/master/Releases/appcast.xml</link>
+		<description>Most recent changes.</description>
+		<language>en</language>
+			<item>
+				<title>Version 0.1</title>
+				<description>
+					<![CDATA[
+						<ul>
+							<li>added X</li>
+							<li>added Y</li>
+							<li>fixed Z</li>
+						</ul>
+					]]>
+				</description>
+				<pubDate>Fr, 14 Jul 2017 15:35:00 +0000</pubDate>
+				<enclosure url="https://github.com/chschroeda/BlennyTV/raw/master/Releases/BlennyTV_0.1.zip" sparkle:version="0.1" sparkle:shortVersionString="0.1" length="4077793" type="application/octet-stream" sparkle:dsaSignature="MCwCFGrZ51QzANNMmvkjYfjR2aje/5yfAhQDSFTn2hywHQPK70n9X7SyxOmyKA==" />
+			</item>
+	</channel>
+</rss>
