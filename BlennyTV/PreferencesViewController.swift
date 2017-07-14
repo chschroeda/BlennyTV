@@ -189,7 +189,7 @@ class PreferencesViewController: NSViewController, NSTableViewDataSource, NSTabl
         nameTextField.stringValue = ""
         urlTextField.stringValue = ""
         orderTextField.stringValue = ""
-        helpLabel.stringValue = "Restart Blenny after adding channels to take effect"
+        helpLabel.stringValue = ""
         helpLabel.isHidden = false
         showForm()
     }
