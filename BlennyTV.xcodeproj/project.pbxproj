@@ -17,11 +17,28 @@
 		DF0966581EFA56A500AB7849 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0966571EFA56A500AB7849 /* PreferencesViewController.swift */; };
 		DF09665A1EFA56B800AB7849 /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0966591EFA56B800AB7849 /* OverlayViewController.swift */; };
 		DF09665C1EFA56C700AB7849 /* EditTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF09665B1EFA56C700AB7849 /* EditTextField.swift */; };
+		DF73B1FD1F18D6A6008B23A7 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = DF73B1FC1F18D6A6008B23A7 /* dsa_pub.pem */; };
 		DFD196371F0260D9000ADA9D /* ChannelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD196361F0260D9000ADA9D /* ChannelManager.swift */; };
 		DFD196391F02B1BF000ADA9D /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD196381F02B1BF000ADA9D /* VideoPlayer.swift */; };
+		E1CAB37B094AAE51A50158A8 /* Pods_BlennyTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A5F683741044BE7610B1FF /* Pods_BlennyTV.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DF8C6C881F18E0F900D6139B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		600EBF215ED6295949AE88F8 /* Pods-BlennyTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlennyTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlennyTV/Pods-BlennyTV.release.xcconfig"; sourceTree = "<group>"; };
+		97DA7B157FECFC45F813185B /* Pods-BlennyTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlennyTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlennyTV/Pods-BlennyTV.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A5F683741044BE7610B1FF /* Pods_BlennyTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlennyTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF09663E1EFA55F900AB7849 /* BlennyTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlennyTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0966411EFA55F900AB7849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF0966431EFA55F900AB7849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +51,7 @@
 		DF0966571EFA56A500AB7849 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		DF0966591EFA56B800AB7849 /* OverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
 		DF09665B1EFA56C700AB7849 /* EditTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTextField.swift; sourceTree = "<group>"; };
+		DF73B1FC1F18D6A6008B23A7 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = "../../Downloads/Sparkle-1.17.0/bin/dsa_pub.pem"; sourceTree = "<group>"; };
 		DFD196361F0260D9000ADA9D /* ChannelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelManager.swift; sourceTree = "<group>"; };
 		DFD196381F02B1BF000ADA9D /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,17 +61,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CAB37B094AAE51A50158A8 /* Pods_BlennyTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4792B023EE4B6C56D794B1C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5F683741044BE7610B1FF /* Pods_BlennyTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE787B3E5A25E341413E269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97DA7B157FECFC45F813185B /* Pods-BlennyTV.debug.xcconfig */,
+				600EBF215ED6295949AE88F8 /* Pods-BlennyTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF0966351EFA55F900AB7849 = {
 			isa = PBXGroup;
 			children = (
+				DF73B1FC1F18D6A6008B23A7 /* dsa_pub.pem */,
 				DF0966401EFA55F900AB7849 /* BlennyTV */,
 				DF09663F1EFA55F900AB7849 /* Products */,
+				DDE787B3E5A25E341413E269 /* Pods */,
+				4792B023EE4B6C56D794B1C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,9 +131,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF0966501EFA55F900AB7849 /* Build configuration list for PBXNativeTarget "BlennyTV" */;
 			buildPhases = (
+				1D23AB79857B27AF574F2ABF /* [CP] Check Pods Manifest.lock */,
 				DF09663A1EFA55F900AB7849 /* Sources */,
 				DF09663B1EFA55F900AB7849 /* Frameworks */,
 				DF09663C1EFA55F900AB7849 /* Resources */,
+				F787478ED8490459C284CCBC /* [CP] Embed Pods Frameworks */,
+				D873CD2C072864898D3A0DB9 /* [CP] Copy Pods Resources */,
+				DF8C6C881F18E0F900D6139B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -146,11 +189,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF0966491EFA55F900AB7849 /* Assets.xcassets in Resources */,
+				DF73B1FD1F18D6A6008B23A7 /* dsa_pub.pem in Resources */,
 				DF09664C1EFA55F900AB7849 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D23AB79857B27AF574F2ABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D873CD2C072864898D3A0DB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlennyTV/Pods-BlennyTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F787478ED8490459C284CCBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlennyTV/Pods-BlennyTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF09663A1EFA55F900AB7849 /* Sources */ = {
@@ -278,28 +370,34 @@
 		};
 		DF0966511EFA55F900AB7849 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97DA7B157FECFC45F813185B /* Pods-BlennyTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2F287M64GC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BlennyTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.schroeDevel.BlennyTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		DF0966521EFA55F900AB7849 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600EBF215ED6295949AE88F8 /* Pods-BlennyTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2F287M64GC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BlennyTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.schroeDevel.BlennyTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
