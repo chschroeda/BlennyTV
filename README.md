@@ -1,7 +1,7 @@
 # BlennyTV
 
 
-BlennyTV is an App for watching Livestreams.
+BlennyTV is a App for watching Livestreams.
 
 ![BlennyTV Screenshot](BlennyTV_screen_1.jpg)
 
